@@ -19,9 +19,6 @@ p {
 }
 
 /* ! nav styles */
-header {
-	min-height: 100vh;
-}
 nav {
 	padding: 4rem 0;
 	display: flex;
@@ -44,6 +41,7 @@ nav .nav-links .nav-items {
 }
 .nav-icon {
 	display: none;
+	font-size: 2rem;
 }
 
 /* ! styles of main header */
@@ -59,6 +57,7 @@ nav .nav-links .nav-items {
 	max-width: 40%;
 }
 .header-title {
+	color: #3a3a3a;
 	font-weight: 700;
 	font-size: 4rem;
 	margin-bottom: 2rem;
@@ -82,4 +81,25 @@ nav .nav-links .nav-items {
 }
 .header-right img {
 	width: 35rem;
+}
+
+/* !partner-logos */
+section {
+	padding: 3rem;
+}
+.partner-logos {
+	max-width: 80%;
+	margin: auto;
+	padding: 2rem;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 4rem;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.33);
+	border-top: 1px solid rgba(0, 0, 0, 0.33);
+}
+.partner-logos img {
+	width: 8rem;
+	display: block;
+	margin: auto;
 }

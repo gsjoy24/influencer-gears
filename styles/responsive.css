@@ -11,7 +11,7 @@
 		max-width: 25rem;
 	}
 	.logo h3 {
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 	}
 	.header-left {
 		min-width: 90%;
@@ -28,7 +28,6 @@
 	.nav-icon {
 		display: block;
 	}
-
 	.header-container {
 		flex-direction: column-reverse;
 	}
