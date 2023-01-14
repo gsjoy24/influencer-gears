@@ -8,3 +8,78 @@
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 }
+html {
+	font-size: 62.5%; /* it's just a browser fix, however "rem" units will be based on this value, so make it comfortable for calculations */
+}
+body {
+	font-size: 1.5rem;
+}
+p {
+	color: #3a3a3a;
+}
+
+/* ! nav styles */
+header {
+	min-height: 100vh;
+}
+nav {
+	padding: 4rem 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 8%;
+}
+.logo h3 {
+	font-weight: 700;
+}
+nav .nav-links .nav-items {
+	list-style: none;
+	display: flex;
+	gap: 1.5rem;
+}
+.nav-item a {
+	text-decoration: none;
+	color: inherit;
+	font-weight: 500;
+}
+.nav-icon {
+	display: none;
+}
+
+/* ! styles of main header */
+.header-container {
+	margin: 4rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+/* ! left side of header */
+.header-left {
+	max-width: 40%;
+}
+.header-title {
+	font-weight: 700;
+	font-size: 4rem;
+	margin-bottom: 2rem;
+}
+.header-btn {
+	margin-top: 2rem;
+	padding: 1rem 1.5rem;
+	background-color: #e02c6d;
+	border: none;
+	color: #fff;
+	border-radius: 2rem;
+}
+.fa-arrow-right {
+	margin-left: 0.6rem;
+}
+/* ! right side of header */
+.header-right {
+	background-image: url(../images/Circle\ design.svg);
+	background-size: cover;
+	background-position: center;
+}
+.header-right img {
+	width: 35rem;
+}
